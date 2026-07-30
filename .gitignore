@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# NetCDF
+*.nc
+
+# NumPy
+*.npy
+*.npz
+
+# HDF
+*.h5
+*.hdf5
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+
+# Large datasets
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated outputs
+outputs/models/*
+outputs/tables/*
+outputs/figures/*
+!outputs/.gitkeep
