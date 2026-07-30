@@ -41,9 +41,3 @@ data/raw/*
 data/processed/*
 !data/raw/.gitkeep
 !data/processed/.gitkeep
-
-# Generated outputs
-outputs/models/*
-outputs/tables/*
-outputs/figures/*
-!outputs/.gitkeep
