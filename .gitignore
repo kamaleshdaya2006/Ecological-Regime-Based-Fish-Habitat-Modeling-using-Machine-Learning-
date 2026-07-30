@@ -10,8 +10,9 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# NetCDF
-*.nc
+# Ignore only raw and processed datasets
+data/raw/**/*.nc
+data/processed/**/*.nc
 
 # NumPy
 *.npy
